@@ -1,0 +1,422 @@
+{
+  "near_duplicate_threshold": 0.92,
+  "files": [
+    {
+      "path": "data\\splits\\pilot_500_reviewed\\train.jsonl",
+      "records": 386,
+      "unique_prompts": 386,
+      "duplicate_prompt_groups": 0,
+      "duplicate_prompt_examples": {},
+      "near_duplicate_pair_count": 5326,
+      "near_duplicate_examples": [
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0006",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0009",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0012",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0018",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0021",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0027",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0036",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0042",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0045",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0048",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0051",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0054",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0057",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0060",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0063",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0090",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0093",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0120",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0123",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0003",
+          "right": "pilot_0153",
+          "similarity": 0.9375
+        }
+      ],
+      "repeated_target_groups": 110,
+      "task_types": {
+        "confirmation": 144,
+        "multi_step": 28,
+        "single_tool": 214
+      },
+      "sources": {
+        "synthetic_executable_pilot_v2": 386
+      },
+      "splits": {
+        "pilot_review": 386
+      },
+      "difficulty": {
+        "easy": 105,
+        "hard": 139,
+        "medium": 142
+      },
+      "prompt_families": {
+        "en_context": 14,
+        "en_direct": 110,
+        "en_sequence": 14,
+        "zh_concise": 14,
+        "zh_context": 110,
+        "zh_direct": 110,
+        "zh_sequence": 14
+      },
+      "quality_issue_counts": {},
+      "records_with_quality_issues": 0,
+      "trainable_by_static_gates": true
+    },
+    {
+      "path": "data\\splits\\pilot_500_reviewed\\validation.jsonl",
+      "records": 76,
+      "unique_prompts": 76,
+      "duplicate_prompt_groups": 0,
+      "duplicate_prompt_examples": {},
+      "near_duplicate_pair_count": 144,
+      "near_duplicate_examples": [
+        {
+          "left": "pilot_0024",
+          "right": "pilot_0150",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0025",
+          "right": "pilot_0151",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0026",
+          "right": "pilot_0035",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0026",
+          "right": "pilot_0041",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0026",
+          "right": "pilot_0083",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0026",
+          "right": "pilot_0089",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0026",
+          "right": "pilot_0128",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0026",
+          "right": "pilot_0152",
+          "similarity": 0.9762
+        },
+        {
+          "left": "pilot_0026",
+          "right": "pilot_0167",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0033",
+          "right": "pilot_0039",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0034",
+          "right": "pilot_0040",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0035",
+          "right": "pilot_0041",
+          "similarity": 0.9762
+        },
+        {
+          "left": "pilot_0035",
+          "right": "pilot_0083",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0035",
+          "right": "pilot_0089",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0035",
+          "right": "pilot_0128",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0035",
+          "right": "pilot_0152",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0035",
+          "right": "pilot_0167",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0041",
+          "right": "pilot_0083",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0041",
+          "right": "pilot_0089",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0041",
+          "right": "pilot_0128",
+          "similarity": 0.9524
+        }
+      ],
+      "repeated_target_groups": 20,
+      "task_types": {
+        "confirmation": 24,
+        "multi_step": 8,
+        "single_tool": 44
+      },
+      "sources": {
+        "synthetic_executable_pilot_v2": 76
+      },
+      "splits": {
+        "pilot_review": 76
+      },
+      "difficulty": {
+        "easy": 18,
+        "hard": 26,
+        "medium": 32
+      },
+      "prompt_families": {
+        "en_context": 4,
+        "en_direct": 20,
+        "en_sequence": 4,
+        "zh_concise": 4,
+        "zh_context": 20,
+        "zh_direct": 20,
+        "zh_sequence": 4
+      },
+      "quality_issue_counts": {},
+      "records_with_quality_issues": 0,
+      "trainable_by_static_gates": true
+    },
+    {
+      "path": "data\\splits\\pilot_500_reviewed\\test.jsonl",
+      "records": 38,
+      "unique_prompts": 38,
+      "duplicate_prompt_groups": 0,
+      "duplicate_prompt_examples": {},
+      "near_duplicate_pair_count": 34,
+      "near_duplicate_examples": [
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0015",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0030",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0016",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0031",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0002",
+          "right": "pilot_0017",
+          "similarity": 0.9762
+        },
+        {
+          "left": "pilot_0002",
+          "right": "pilot_0032",
+          "similarity": 0.9762
+        },
+        {
+          "left": "pilot_0002",
+          "right": "pilot_0074",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0015",
+          "right": "pilot_0030",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0016",
+          "right": "pilot_0031",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0017",
+          "right": "pilot_0032",
+          "similarity": 0.9762
+        },
+        {
+          "left": "pilot_0017",
+          "right": "pilot_0074",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0032",
+          "right": "pilot_0074",
+          "similarity": 0.9524
+        },
+        {
+          "left": "pilot_0180",
+          "right": "pilot_0195",
+          "similarity": 0.95
+        },
+        {
+          "left": "pilot_0180",
+          "right": "pilot_0210",
+          "similarity": 0.95
+        },
+        {
+          "left": "pilot_0181",
+          "right": "pilot_0196",
+          "similarity": 0.9655
+        },
+        {
+          "left": "pilot_0181",
+          "right": "pilot_0211",
+          "similarity": 0.9655
+        },
+        {
+          "left": "pilot_0181",
+          "right": "pilot_0253",
+          "similarity": 0.931
+        },
+        {
+          "left": "pilot_0182",
+          "right": "pilot_0197",
+          "similarity": 0.987
+        },
+        {
+          "left": "pilot_0182",
+          "right": "pilot_0212",
+          "similarity": 0.987
+        },
+        {
+          "left": "pilot_0182",
+          "right": "pilot_0254",
+          "similarity": 0.974
+        }
+      ],
+      "repeated_target_groups": 10,
+      "task_types": {
+        "confirmation": 12,
+        "multi_step": 4,
+        "single_tool": 22
+      },
+      "sources": {
+        "synthetic_executable_pilot_v2": 38
+      },
+      "splits": {
+        "pilot_review": 38
+      },
+      "difficulty": {
+        "easy": 12,
+        "hard": 10,
+        "medium": 16
+      },
+      "prompt_families": {
+        "en_context": 2,
+        "en_direct": 10,
+        "en_sequence": 2,
+        "zh_concise": 2,
+        "zh_context": 10,
+        "zh_direct": 10,
+        "zh_sequence": 2
+      },
+      "quality_issue_counts": {},
+      "records_with_quality_issues": 0,
+      "trainable_by_static_gates": true
+    }
+  ]
+}

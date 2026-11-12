@@ -1,0 +1,5 @@
+model_id: Qwen/Qwen3-0.6B
+cache_dir: outputs/cache
+torch_dtype: auto
+device_map: auto
+seed: 42

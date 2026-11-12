@@ -1,0 +1,7 @@
+model: Qwen/Qwen3-0.6B
+cache_dir: outputs/cache
+max_new_tokens: 96
+order_suite: outputs/metrics/decision_orders.json
+unseen_suite: outputs/metrics/decision_unseen.json
+multistep_suite: outputs/metrics/multistep_decision.json
+seed: 42

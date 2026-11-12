@@ -1,0 +1,13 @@
+base_model: Qwen/Qwen3-0.6B
+train_data: data/splits/train_augmented.jsonl
+output_dir: outputs/adapters/qwen3-0.6b-decision
+max_seq_length: 512
+max_steps: 80
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+learning_rate: 0.0002
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+decision_points: true
+seed: 42

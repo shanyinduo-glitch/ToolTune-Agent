@@ -1,0 +1,147 @@
+{
+  "near_duplicate_threshold": 0.92,
+  "files": [
+    {
+      "path": "data\\splits\\pilot_500.jsonl",
+      "records": 500,
+      "unique_prompts": 500,
+      "duplicate_prompt_groups": 0,
+      "duplicate_prompt_examples": {},
+      "near_duplicate_pair_count": 8665,
+      "near_duplicate_examples": [
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0003",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0006",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0009",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0012",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0015",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0018",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0021",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0024",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0027",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0030",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0060",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0090",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0120",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0000",
+          "right": "pilot_0150",
+          "similarity": 0.9375
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0004",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0007",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0010",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0013",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0016",
+          "similarity": 0.9583
+        },
+        {
+          "left": "pilot_0001",
+          "right": "pilot_0019",
+          "similarity": 0.9583
+        }
+      ],
+      "repeated_target_groups": 140,
+      "task_types": {
+        "confirmation": 180,
+        "multi_step": 40,
+        "single_tool": 280
+      },
+      "sources": {
+        "synthetic_executable_pilot_v2": 500
+      },
+      "splits": {
+        "pilot_review": 500
+      },
+      "difficulty": {
+        "easy": 135,
+        "hard": 175,
+        "medium": 190
+      },
+      "prompt_families": {
+        "en_context": 20,
+        "en_direct": 140,
+        "en_sequence": 20,
+        "zh_concise": 20,
+        "zh_context": 140,
+        "zh_direct": 140,
+        "zh_sequence": 20
+      },
+      "quality_issue_counts": {
+        "semantic_review_not_passed": 500,
+        "training_not_allowed": 500
+      },
+      "records_with_quality_issues": 500,
+      "trainable_by_static_gates": false
+    }
+  ]
+}
